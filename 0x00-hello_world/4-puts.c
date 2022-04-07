@@ -2,7 +2,7 @@
 
 /**
  *
- *  * main - entry point
+ *  * main - prints the phrase "Programming is like building a multilingual puzzle
  *
  *   * @void: no arguments
  *
