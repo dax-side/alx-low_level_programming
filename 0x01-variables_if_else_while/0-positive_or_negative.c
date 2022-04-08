@@ -13,8 +13,9 @@
  * Return: 0 for success
 */
 int main(void)
+
 {
-	 /**
+	/**
 	  *
 	  *    * variable n has been declared
 	  *
@@ -22,10 +23,8 @@ int main(void)
 	  *
 	  */
 		int n;
-
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
-
 		if (n > 0)
 		{
 			printf("%d is positive\n", n);
