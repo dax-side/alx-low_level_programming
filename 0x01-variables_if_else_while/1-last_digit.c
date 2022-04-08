@@ -5,7 +5,7 @@
 /**
  * main - assign a random number to the variable n each time it is executed.
  * The string last digit of n
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
@@ -27,5 +27,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastn);
 	}
-	return(0);
+	return (0);
 }
