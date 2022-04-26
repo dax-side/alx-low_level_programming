@@ -29,6 +29,6 @@ int x;
 
 		haystack++;
 	}
-	
+
 	return ('\0');
 }
