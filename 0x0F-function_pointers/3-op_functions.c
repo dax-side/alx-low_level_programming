@@ -49,7 +49,7 @@ int op_div(int a, int b)
 }
 /**
  * op_mod - Remainder of the division
- * 
+ *
  * @a: Integer 1
  * @b: Integer 2
  *
