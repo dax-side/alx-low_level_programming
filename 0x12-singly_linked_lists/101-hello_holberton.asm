@@ -1,8 +1,25 @@
-global main
-extern    printf
+; Desc: 64-bit assembly program that prints
+
+;       Hello, Holberton followed by a new line.
+
+extern printf
+
+section .text
+global mainv
+
 main:
-	mov   edi, format
-	xor   eax, eax
-	 call  printf
-	 mov 	eax, 0
-format: db `Hello, Holberton\n`,0
+	push rbp
+
+	mov rdi,fmt
+	mov rsi,msg
+	mov rax,0
+	call printf
+
+	pop rbp
+
+	mov rax,0
+	ret
+
+section .data
+	msg: db "Hello, Holberton", 0
+	fmt: db "%s", 10, 0	
