@@ -1,5 +1,5 @@
 /*
- *dax-side
+ *Adegbite Damola Oluwafifunmi
  */
 
 #include "hash_tables.h"
