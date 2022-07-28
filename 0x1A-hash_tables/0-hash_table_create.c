@@ -1,5 +1,5 @@
 /*
- * Sangwani P Zyambo
+ * Adegbite Damola Oluwafifunmi
  */
 
 #include "hash_tables.h"
